@@ -6,41 +6,27 @@
 # Testing
 /coverage
 
+# Next.js
+/.next/
+/out/
+
 # Production
 /build
-/dist
-/.next
-/out
+.vercel
 
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env*.local
+# Misc
+.DS_Store
+*.pem
 
-# Logs
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Local env files
+.env*.local
 
-# System Files
-.DS_Store
-Thumbs.db
-
-# Cloudflare specific
-wrangler.toml
-.wrangler/
-.cloudflare/
-/workers-site/
+# Cloudflare
+.env
+.dev.vars
 
