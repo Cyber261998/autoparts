@@ -3,7 +3,8 @@
     "dev": "next dev",
     "build": "npx @cloudflare/next-on-pages",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "next build"  // Add this line
   },
   "dependencies": {
     "next": "^14.1.0",
