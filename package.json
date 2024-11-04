@@ -25,6 +25,10 @@
     "glob": "^10.3.10",
     "rimraf": "^5.0.5"
   },
+  "engines": {
+    "node": ">=14.0.0",
+    "next": "^14.1.0"
+  },
   "overrides": {
     "rollup-plugin-inject": "@rollup/plugin-inject@^5.0.5",
     "sourcemap-codec": "@jridgewell/sourcemap-codec@^1.4.15",
