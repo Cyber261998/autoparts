@@ -12,7 +12,8 @@
     "react-dom": "^18.2.0",
     "lru-cache": "^10.2.0",
     "uuid": "^9.0.1",
-    "debug": "^4.3.4"
+    "debug": "^4.3.4",
+    "stream/web": "^0.3.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.9.0",
